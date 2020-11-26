@@ -1,5 +1,213 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+/* This is from 0px to 768px */
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f7ebe2;
 }
 
+
+div .container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 20px;
+    height: 0.5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    margin-left: 1em;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+nav ul {
+    list-style-type: none;
+
+}
+
+
+.header {
+
+    margin: 0;
+    padding: .5em;
+    color: white;
+    background-color: #f5d8cf;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    color: black;
+    font-size: 0.8em;
+    font-weight: bolder;
+    line-height: 1.5em;
+    align-items: center;
+}
+
+header h1 {
+
+    color: #f5d8cf;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+img.firstimage {
+    width: 100%;
+    height: 30em;
+}
+
+h1.Dreaming {
+    font-family: 'Castoro', serif;
+    text-align: center;
+    color: #f5d8cf;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 69px;
+    position: relative;
+    position: absolute;
+    padding: 1em;
+    padding-top: 4.5em;
+}
+
+p.letsstayinbed {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f5d8cf;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    position: absolute;
+    padding-top: 23em;
+    padding-left: 8em;
+
+}
+
+p.shophere {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding: .5em;
+    color: white;
+    background-color: black;
+    width: 6em;
+    text-align: center;
+    position: relative;
+    position: absolute;
+    margin-top: 26em;
+    margin-left: 8em;
+}
+
+h2.categories {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 15em;
+}
+
+ul.list {
+    list-style-type: none;
+    font-family: 'Castoro', serif;
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 69px;
+
+}
+
+img.img2 {
+    width: 80%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+img.img3 {
+    width: 65%;
+    padding-left: 4em;
+    padding-top: 2em;
+
+}
+
+h2.holiday {
+    font-family: 'Castoro', serif;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+section.about {
+    background-color: #f5d8cf;
+    width: 100%;
+    height: 30em;
+}
+
+section.about h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 4em;
+
+}
+
+section.about p {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1.5em;
+    text-align: center;
+
+
+}
+
+img.img4 {
+    width: 80%;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+h2.mirns {
+    font-family: 'Castoro', serif;
+    color: black;
+    font-size: 1.5em;
+    padding-left: 1.5em;
+
+}
+
+h3.journal {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    width: 9em;
+    height: 2em;
+    font-size: 0.8em;
+    padding-top: 1em;
+    text-align: center;
+    padding: inherit;
+}

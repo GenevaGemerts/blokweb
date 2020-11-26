@@ -69,15 +69,22 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -blauw-
+**Je startniveau:** -kies uit zwart, rood óf blauw-
+Blauw
 
 **Je focus:** -kies uit responsive óf surface plane-
+responsive
 
-**Je opdracht:** -https://goliajewelry.comp-
+**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp- 
+
+https://crispsheets.com/en/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/pagina1.png" width="375px" alt="Home pagina">
+
+
+
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
